@@ -204,7 +204,7 @@ Planes._levelLoader = {
             plane_id    : playerPlaneData.plane_id,
             orientation : "E",
             bullets     : this.playerBullets,
-            health      : 200
+            health      : 10
         };
         this.player         = new Planes.Player(this, -100, 100, playerData);
         this.player.onKill = this.onPlayerKill.bind(this);

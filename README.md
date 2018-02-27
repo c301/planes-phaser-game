@@ -15,4 +15,5 @@ Controls
 - up arrow
 - down arrow
 - spacebar to fire
-- mouse 
+- P key for pause
+- touch controls on mobile phones
