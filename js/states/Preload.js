@@ -20,7 +20,7 @@ Planes.PreloadState = {
 
             //load levels
             this.load.text('levels', 'assets/data/levels.json');
-            this.load.text('defaultLevel', 'assets/data/_defaultLevel.json');
+            this.load.text('defaultLevel', 'assets/data/defaultLevel.json');
             this.load.text('items', 'assets/data/items.json');
             this.load.text('objects', 'assets/data/objects.json');
 
