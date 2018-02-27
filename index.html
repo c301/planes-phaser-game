@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<title>Circus Planes</title>
+
+		<style>
+		  body {
+		  	background-color: black;
+		    padding: 0px;
+		    margin: 0px;
+		  }
+          canvas {
+              /* cursor: none !important; */
+          }
+
+          @font-face{
+              font-family: 'Editundo';
+              src: url('assets/fonts/editundo.ttf');
+          }
+          @font-face{
+              font-family: 'KenVectorBold';
+              src: url('assets/fonts/KenVectorBold.ttf');
+          }
+          @font-face{
+              font-family: 'KenPixelBlocks';
+              src: url('assets/fonts/KenPixelBlocks.ttf');
+          }
+          @font-face{
+              font-family: 'MotionControlBold';
+              src: url('assets/fonts/motion-control.bold.otf');
+          }
+          @font-face{
+              font-family: 'MotionControlBoldItalic';
+              src: url('assets/fonts/motion-control.bolditalic.otf');
+          }
+          @font-face{
+              font-family: 'Daypbl';
+              src: url('assets/fonts/DAYPBL.ttf');
+          }
+          @font-face{
+              font-family: 'Mackerel';
+              src: url('assets/fonts/Mackerel.ttf');
+          }
+          @font-face{
+              font-family: 'PFSquareSansPro';
+              src: url('assets/fonts/PFSquareSansPro.ttf');
+          }
+
+          .fontPreload1{
+            font-family: 'Mackerel';
+            position: absolute;
+            left: -100px;
+          }
+          .fontPreload2{
+            font-family: 'Daypbl';
+            position: absolute;
+            left: -100px;
+          }
+          .fontPreload3{
+            font-family: 'PFSquareSansPro';
+            position: absolute;
+            left: -100px;
+          }
+	  </style>
+	</head>
+
+	<body>  
+	    <div class="fontPreload1">.</div>
+	    <div class="fontPreload2">.</div>
+	    <div class="fontPreload3">.</div>
+
+        <script src="cordova.js"></script>
+        <script type="text/javascript" src="js/vendor/lodash.js"></script>
+        <script type="text/javascript" src="js/phaser.js"></script>
+        <script type="text/javascript" src="js/plugins/OnscreenControls.js"></script>
+        <!-- <script type="text/javascript" src="js/plugins/phaser&#45;debug.js"></script> -->
+
+		  <script type="text/javascript" src="js/prefabs/Plane.js"></script>
+		  <script type="text/javascript" src="js/prefabs/Enemy.js"></script>
+		  <script type="text/javascript" src="js/prefabs/Item.js"></script>
+		  <script type="text/javascript" src="js/prefabs/Player.js"></script>
+		  <script type="text/javascript" src="js/prefabs/Bullet.js"></script>
+		  <script type="text/javascript" src="js/prefabs/Cloud.js"></script>
+
+          <!-- const -->
+          <script type="text/javascript" src="js/i8n.js"></script>
+          <script type="text/javascript" src="js/const.js"></script>
+
+          <!-- load mixins -->
+          <script type="text/javascript" src="js/states/Game/_levelLoader.js"></script>
+          <script type="text/javascript" src="js/states/Game/_GUI.js"></script>
+          <script type="text/javascript" src="js/states/Game/_debug.js"></script>
+          <script type="text/javascript" src="js/states/Game/_utils.js"></script>
+          <!-- end load mixins -->
+
+		  <script type="text/javascript" src="js/config.js"></script>
+		  <script type="text/javascript" src="js/store.js"></script>
+		  <script type="text/javascript" src="js/states/Boot.js"></script>
+		  <script type="text/javascript" src="js/states/Preload.js"></script>
+		  <script type="text/javascript" src="js/states/Home.js"></script>
+		  <script type="text/javascript" src="js/states/CharacterSelect.js"></script>
+		  <script type="text/javascript" src="js/states/LevelSelect.js"></script>
+		  <script type="text/javascript" src="js/states/OptionsPage.js"></script>
+		  <script type="text/javascript" src="js/states/Credits.js"></script>
+		  <script type="text/javascript" src="js/states/Stats.js"></script>
+		  <script type="text/javascript" src="js/states/Game.js"></script>
+
+          <script src="js/scaler.js"></script>
+          <script src="js/main.js"></script>
+	</body>
+</html>
+

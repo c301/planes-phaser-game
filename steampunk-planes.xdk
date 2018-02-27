@@ -1,0 +1,385 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "creationData": {
+      "type": "Import",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "",
+      "projectGuid": "e7f8e385-35b2-4d18-a07a-19b8d78aca79",
+      "lastModifiedDate": 1451317176933,
+      "creationDate": 1445984685321
+    },
+    "sourceDirectory": "",
+    "cordovaPluginsDirectory": "plugins",
+    "gameAssetDirectory": "assets",
+    "gameMetadata": {
+      "gameEngineName": "phaser",
+      "gameEngineVersion": "2.4.4"
+    },
+    "testDirectory": "test",
+    "startFile": "index.html",
+    "projectTags": [
+      "XDK-game-app"
+    ],
+    "projectFiles": {},
+    "projectDirectories": {
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [],
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-google-analytics",
+        "name": "Google Universal Analytics Plugin",
+        "version": "0.8.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-google-analytics",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-google-analytics",
+        "selectedState": "Included",
+        "checksum": "4bb18242",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Daniel C. Wilson",
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE"
+          ]
+        },
+        "description": "Simple tracking (screens/events) for Google Analytics SDK 3.14 (iOS) and SDK 4.0 (Android)",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cc.fovea.cordova.purchase",
+        "name": "Purchase",
+        "version": "3.11.0",
+        "originType": "cordova.io",
+        "origin": "cc.fovea.cordova.purchase",
+        "gitref": "",
+        "paramvals": {
+          "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhjw9ylcaoRaP9tNSlzoUIARiEpixDyw/ENYayfYhcqi1auUYu9eQwSto1ylSrvS/ZT1S4APHJ+vCbXWnSiILtSawa6cBc/xlpvZDv3WTPnGU8c8MpJ//i+uA5BvA7+KRGSqlBfMMAPPIBCnnc3XBZlEei3h2VcKvoUUhGwKYvKceOoIkDt77TU3Y/rzQIeqN3NuIvH+UvMUXsg1q0q4t5fW69yAlP0Czt859Ferelc8X/D4LrzOqP1YHwBzm2jtmSTdc53REA5FklzO2O7C/Ef/x7WCNTBh83CJtJMPAfql310fr6Le6e1scAD/CabaP+YUbWjroSlGbRp45b9/bRwIDAQAB"
+        },
+        "sourceLocation": "plugins/cc.fovea.cordova.purchase",
+        "selectedState": "Included",
+        "checksum": "c990e970",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=2.4.0",
+        "permissions": {
+          "android:name": [
+            "com.android.vending.BILLING"
+          ]
+        },
+        "description": "Cordova Purchase plugin for iOS and Android (AppStore and PlayStore)",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-globalization",
+        "name": "Globalization",
+        "version": "1.0.2",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-globalization",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-globalization",
+        "selectedState": "Included",
+        "checksum": "a873c057",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova Globalization Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "cordova-plugin-app-version",
+        "name": "AppVersion",
+        "version": "0.1.8",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-app-version",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-app-version",
+        "selectedState": "Included",
+        "checksum": "be5c8cf9",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "\n        This plugin will return the version of your App that you have set in\n        packaging it. I.e. it will always match the version in the app store.\n    ",
+        "data": {},
+        "dependedBy": []
+      }
+    ],
+    "serviceMethods": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "16",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "landscape",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "appName_": "Planes Quick Battle",
+        "appID_": "com.c301.quickplanes",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "relPath": "assets/graphics/icons/Icon-ldpi.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          },
+          {
+            "relPath": "assets/graphics/icons/Icon-mdpi.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "assets/graphics/icons/Icon-hdpi.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "assets/graphics/icons/Icon-xhdpi.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          }
+        ],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "1.0.7",
+        "appVersionCode_": "10",
+        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "5.1.1",
+        "appDescription_": "The ultimate battle of the planes, so epic and so quick",
+        "appAuthor_": "Anton Sivolapov"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto",
+          "Fullscreen": true
+        },
+        "isActive_": false,
+        "appName_": "steampunk-planes",
+        "appID_": "com.c301.quickplanes",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "15",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "7",
+          "ios-configuration": "adhoc",
+          "Fullscreen": true,
+          "Orientation": "landscape"
+        },
+        "isActive_": false,
+        "appName_": "Planes Quick Battle",
+        "appID_": "com.c301.quickplanes",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "1.0.0",
+        "cordovaCLIVersion_": "5.1.1",
+        "iosProvs_": [],
+        "appDescription_": "The ultimate battle of the planes, so epic and so quick",
+        "appAuthor_": "Anton Sivolapov"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "steampunk-planes",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "steampunk-planes",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "steampunk-planes",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "steampunk-planes",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "steampunk-planes",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "Cordova 3.x",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "steampunk-planes",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1"
+      }
+    }
+  }
+}

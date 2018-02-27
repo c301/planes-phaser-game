@@ -1,0 +1,39 @@
+[
+    {
+        "object_id"     : "_defaultObjectConfig",
+        "layer"         : "backgroundDetail"
+    },
+    {
+        "object_id"             : "cloud",
+        "object_constructor"    : "Cloud",
+        "layer"                 : "frontLayer"
+    },
+    {
+        "object_id"     : "rock",
+        "startFrame"    : "rock.png",
+        "on_ground"     : true,
+        "scale"         : {
+            "x"         : 0.5,
+            "y"         : 0.5
+        }
+    },
+    {
+        "object_id"     : "plant",
+        "startFrame"    : "plant.png",
+        "on_ground"     : true,
+        "scale"         : {
+            "x"         : 0.5,
+            "y"         : 0.5
+        }
+    },
+    {
+        "object_id"     : "sign",
+        "startFrame"    : "signRight.png",
+        "on_ground"     : true,
+        "scale"         : {
+            "x"         : 0.5,
+            "y"         : 0.5
+        }
+    }
+]
+

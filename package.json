@@ -1,0 +1,62 @@
+{
+    "webexe_settings": {
+        "linux-x32": false, 
+        "export_dir": "/home/c301/Downloads/planes-compile", 
+        "windows-x64": false, 
+        "uncompressed_folder": false, 
+        "download_dir": "/home/c301/.local/share/Web2Executable/files/downloads", 
+        "nw_compression_level": 0, 
+        "mac-x32": false, 
+        "custom_script": "", 
+        "windows-x32": false, 
+        "mac-x64": false, 
+        "nw_version": "0.12.3", 
+        "force_download": false, 
+        "linux-x64": true
+    }, 
+    "description": "", 
+    "nodejs": true, 
+    "additional_trust_anchors": [
+        ""
+    ], 
+    "inject-js-end": "", 
+    "keywords": [], 
+    "node-main": "", 
+    "node-remote": "", 
+    "webkit": {
+        "page-cache": false, 
+        "java": false, 
+        "plugin": false
+    }, 
+    "js-flags": "", 
+    "app_name": "planes-game", 
+    "single-instance": true, 
+    "name": "planes", 
+    "user-agent": "", 
+    "window": {
+        "fullscreen": false, 
+        "resizable": false, 
+        "show": true, 
+        "always-on-top": false, 
+        "frame": true, 
+        "title": "Planes-game", 
+        "kiosk": false, 
+        "height": 480, 
+        "exe_icon": "", 
+        "visible": true, 
+        "transparent": false, 
+        "as_desktop": false, 
+        "width": 640, 
+        "position": "", 
+        "show_in_taskbar": true, 
+        "kiosk_emulation": false, 
+        "mac_icon": "", 
+        "toolbar": false, 
+        "icon": "planeGreen1.png"
+    }, 
+    "version": "0.0.1", 
+    "snapshot": "", 
+    "inject-js-start": "", 
+    "main": "index.html", 
+    "chromium-args": ""
+}

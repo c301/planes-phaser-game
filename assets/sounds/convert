@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in *.ogg;
+  do name=`echo $i | cut -d'.' -f1`;
+  echo $name;
+  ffmpeg -i $i -ab 64k -f ogg '../converted/'$i;
+done

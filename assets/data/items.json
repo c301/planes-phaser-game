@@ -1,0 +1,53 @@
+[
+    {
+        "item_id"       : "random_bonus",
+        "label"         : "Random Bonus",
+        "startFrame"    : "powerupBlue.png",
+        "desc"          : "random bonus",
+        "stats"         : {}
+    },
+    {
+        "item_id"       : "drunken_bullet",
+        "label"         : "Drunken Bullet",
+        "startFrame"    : "pill_green.png",
+        "desc"          : "zigzag trajectory for bullets",
+        "duration"      : 30,
+        "stats"         : {}
+    },
+    {
+        "item_id"       : "aim",
+        "label"         : "Aim",
+        "startFrame"    : "crosshair_red_small.png",
+        "duration"      : 20,
+        "desc"          : "add aim to your plane. you can controll bullets"
+    },
+    {
+        "item_id"       : "fire_up",
+        "label"         : "Fire Up",
+        "startFrame"    : "fireball.png",
+        "desc"          : "add one bullet for fire rate"
+    },
+    {
+        "item_id"       : "speed",
+        "label"         : "Speed",
+        "duration"      : 30,
+        "startFrame"    : "bolt_gold.png",
+        "desc"          : "inc your speed",
+        "value"         : 50
+    },
+    {
+        "item_id"       : "turn_rate",
+        "duration"      : 30,
+        "label"         : "Inc Steering",
+        "startFrame"    : "things_bronze.png",
+        "desc"          : "inc your steering",
+        "value"         : 1
+    },
+    {
+        "item_id"       : "add_clouds",
+        "label"         : "Clouds",
+        "startFrame"    : "cloudUpload.png",
+        "desc"          : "add few clouds"
+    }
+]
+

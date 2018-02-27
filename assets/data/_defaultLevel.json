@@ -1,0 +1,63 @@
+{
+    "background"    : "background.png",
+    "ground"        : "ground.png",
+    "enemies_waves" : [{
+            "enemies"   : [
+                {
+                    "plane_id": "green",
+                    "health" : 4,
+                    "item": {
+                        "item_id": "random_bonus"
+                    }
+                }
+            ]
+    }],
+    "level_data"    : {
+        "objects"   : [
+            {
+                "object_id"     : "rock",
+                "x"             : 50
+            },
+            {
+                "object_id"     : "plant",
+                "x"             : 250
+            },
+            {
+                "object_id"     : "plant",
+                "x"             : 270
+            },
+            {
+                "object_id"     : "sign",
+                "x"             : 50
+            },
+            {
+                "object_id"     : "cloud",
+                "x"             : 250,
+                "y"             : 800,
+                "velocity"      : {
+                    "x"     : 20
+                }
+            },
+            {
+                "object_id"     : "cloud",
+                "x"             : 50,
+                "y"             : 400,
+                "velocity"      : {
+                    "x"     : -30
+                },
+                "time"          : 10
+            },
+            {
+                "object_id"     : "cloud",
+                "x"             : -50,
+                "y"             : 620,
+                "velocity"      : {
+                    "x"     : 40
+                },
+                "time"          : 20
+            }
+        ]
+    },
+    "rewards": {
+    }
+}

@@ -1,0 +1,113 @@
+[
+    {
+        "plane_id"      : "green",
+        "label"         : "Green",
+        "startFrame"    : "planeGreen/planeGreen1.png",
+        "animations"    : {
+            "flight"        : ["planeGreen/planeGreen1.png", "planeGreen/planeGreen2.png", "planeGreen/planeGreen3.png"]
+        },
+        "speed"         : 100,
+        "information"   : {
+            "description"   : "Good old green plane. Super good for vegans,\n but still can prepare some meat!",
+            "stats"         : [
+                {
+                    "name": "damage",
+                    "points": 5
+                },
+                {
+                    "name": "speed",
+                    "points": 5
+                },
+                {
+                    "name": "control",
+                    "points": 5
+                }
+            ]
+        }
+    },
+    {
+        "plane_id"      : "red",
+        "label"         : "Red",
+        "startFrame"    : "planeRed/planeRed1.png",
+        "speed"         : 100,
+        "max_bullets"   : 5,
+        "animations"    : {
+            "flight"        : ["planeRed/planeRed1.png", "planeRed/planeRed2.png", "planeRed/planeRed3.png"]
+        },
+        "information"   : {
+            "description"   : "Red Baron comes to deal!\nHeavy metal dude will fight for you!",
+            "stats"         : [
+                {
+                    "name": "damage",
+                    "points": 9
+                },
+                {
+                    "name": "speed",
+                    "points": 5
+                },
+                {
+                    "name": "control",
+                    "points": 5
+                }
+            ]
+        }
+    },
+    {
+        "plane_id"      : "yellow",
+        "label"         : "Yellow",
+        "speed"         : 150,
+        "bullet_speed"  : 450,
+        "max_bullets"   : 3,
+        "turn_rate"     : 1.5,
+        "startFrame"    : "planeYellow/planeYellow1.png",
+        "animations"    : {
+            "flight"        : ["planeYellow/planeYellow1.png", "planeYellow/planeYellow2.png", "planeYellow/planeYellow3.png"]
+        },
+        "information"   : {
+            "description"   : "Fancy yellow chick faster then light!",
+            "stats"         : [
+                {
+                    "name": "damage",
+                    "points": 3
+                },
+                {
+                    "name": "speed",
+                    "points": 7
+                },
+                {
+                    "name": "control",
+                    "points": 7
+                }
+            ]
+        }
+    },
+    {
+        "plane_id"      : "blue",
+        "label"         : "Blue",
+        "speed"         : 150,
+        "bullet_speed"  : 450,
+        "max_bullets"   : 7,
+        "turn_rate"     : 1.5,
+        "startFrame"    : "planeBlue/planeBlue1.png",
+        "animations"    : {
+            "flight"        : ["planeBlue/planeBlue1.png", "planeBlue/planeBlue2.png", "planeBlue/planeBlue3.png"]
+        },
+        "information"   : {
+            "description"   : "Nearly unbreakable plane! Who could tame him?",
+            "stats"         : [
+                {
+                    "name": "damage",
+                    "points": 7
+                },
+                {
+                    "name": "speed",
+                    "points": 7
+                },
+                {
+                    "name": "control",
+                    "points": 7
+                }
+            ]
+        }
+    }
+]
