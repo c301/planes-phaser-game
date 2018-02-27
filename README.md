@@ -17,3 +17,5 @@ Controls
 - spacebar to fire
 - P key for pause
 - touch controls on mobile phones
+
+## Phaser is awesome! Have fun! ;)
