@@ -134,7 +134,8 @@ Planes._gameState = {
         this.game.physics.arcade.collide(this.player, this.blocks, this.handleGroundCollision, null, this);
 
         //start game
-        if( !this.startGame && this.game.input.activePointer.isDown ){
+        // if( !this.startGame && this.game.input.activePointer.isDown ){
+        if( !this.startGame && ( this.game.input.activePointer.isDown || this.spacebar.isDown ) ){
             this.startingGame();
         }else{
             if( this.player.alive ){
